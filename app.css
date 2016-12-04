@@ -1,0 +1,59 @@
+/*
+ Different Coloring Schemes
+*/
+h1 {
+  color: red;
+  /*
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+  */
+  border: 8px dashed rgb(255, 0, 0);
+}
+li{
+  color: green;
+}
+h4{
+  background: red;
+  color: blue;
+}
+body{
+
+  background: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/68054_476956415678637_644475463_n.jpg?oh=21c1525776c04f7c577439a7d71965fb&oe=58F914C9);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+/*
+  # Red/Green/Blue in Coloring
+  # __ / __ / __
+*/
+h2{
+  color: #000000;
+}
+h3{
+  color: #4B0082
+}
+/*
+  0-255
+*/
+
+h1 {
+  color: rgb(0, 255,0);
+}
+h2{
+  color: rgb(100,0, 100);
+}
+h3{
+  color: rgb(11, 99, 150);
+}
+
+/*
+RGBA
+Transparency
+ A ranges from 0 - 1
+*/
+h3{
+  color: rgba(11,0,0,1);
+}
