@@ -1,7 +1,9 @@
 /*
  Different Coloring Schemes
 */
-
+h1{
+  font: Indie Flower;
+}
 body{
 
   background: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/68054_476956415678637_644475463_n.jpg?oh=21c1525776c04f7c577439a7d71965fb&oe=58F914C9);
