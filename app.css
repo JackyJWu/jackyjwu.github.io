@@ -10,8 +10,29 @@ h1{
 }
 body{
 
-  background: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/68054_476956415678637_644475463_n.jpg?oh=21c1525776c04f7c577439a7d71965fb&oe=58F914C9);
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin:0;
+  padding:0;
+}
+
+
+
+/* New */
+.intro{
+  background:url('city.jpg') no-repeat;
+  background-position: 50% 50%;
+  background-size:cover;
+
 
 }
+.intro h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 7em;
+  color: #ff3
+}
+
+/* .content{
+  height: 2000px;
+  padding-top: 100px;
+  background-color: #aaa;
+} */
