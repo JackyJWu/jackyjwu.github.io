@@ -34,3 +34,17 @@ function intro(){
 };
 
 intro()
+
+/* scroll to a div with the ID "scrollToThis" by clicking a link with the class "scrollLink" */
+$('.scrollLink').click( function() {
+     $('html, body').animate({
+          scrollTop: $('#scrollToThis').offset().top
+     }, 400);
+});
+
+/* scroll to the top of the page */
+if ($('.scrollToTop')[0]){
+     $('.scrollToTop').click(function(){
+          $('html,body').animate({ scrollTop: 0 }, 400);
+     });
+}

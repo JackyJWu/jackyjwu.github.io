@@ -8,6 +8,10 @@ p{
 h1{
   font-family: Indie Flower;
 }
+
+a:hover{
+  color:white;
+}
 body{
 
   margin:0;
@@ -44,11 +48,17 @@ body{
 #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
 .btn{
+  /* -webkit-transition-duration: 0.4s; /* Safari */
+  /* transition-duration: 0.4s; */
   margin-left: 0.5px;
   margin-right:0.5px;
 }
-
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+.button{
+  /* -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
+/*
+.button:hover{
+  background-color: #4CAF50;
+  color: white;
+} */
