@@ -43,12 +43,11 @@ body{
   padding-top: 100px;
   background-color: #aaa;
 } */
-
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5; text-align: center;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7; text-align: center;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800; text-align: center;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4; text-align: center;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688; text-align: center;}
+#section1 {padding-top:50px;height:1000px;color: #fff; background-color: #1E88E5; text-align: center;}
+#section2 {padding-top:50px;height:1000px;color: #fff; background-color: #673ab7; text-align: center;}
+#section3 {padding-top:50px;height:1000px;color: #fff; background-color: #ff9800; text-align: center;}
+#section41 {padding-top:50px;height:1000px;color: #fff; background-color: #00bcd4; text-align: center;}
+#section42 {padding-top:50px;height:1000px;color: #fff; background-color: #009688; text-align: center;}
 
 
 
