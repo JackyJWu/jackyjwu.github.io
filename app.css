@@ -2,12 +2,7 @@
  Different Coloring Schemes
 */
 
-p{
-  font-family: Raleway;
-}
-h1{
-  font-family: Indie Flower;
-}
+
 
 a:hover{
   color:white;
@@ -33,21 +28,19 @@ body{
   text-transform: uppercase;
   font-size: 7em;
   color: white;
+font-family: 'Montserrat', sans-serif;
+}
 
+.nav-item{
+  font-family: 'Montserrat', sans-serif;
 }
 
 
-
-/* .content{
-  height: 2000px;
-  padding-top: 100px;
-  background-color: #aaa;
-} */
-#section1 {padding-top:50px;height:1000px;color: #fff; background-color: #E1EBED; text-align: center;}
-#section2 {padding-top:50px;height:1000px;color: #fff; background-color: #E9E1ED; text-align: center;}
-#section3 {padding-top:50px;height:1000px;color: #fff; background-color: #EDE3E1; text-align: center;}
-#section41 {padding-top:50px;height:1000px;color: #fff; background-color: #E5EDE1; text-align: center;}
-#section42 {padding-top:50px;height:1000px;color: #fff; background-color: #E1EBED; text-align: center;}
+#section1 {padding-top:50px;height:1000px;color: #fff; background-color: #E1EBED; text-align: center; font-family: 'Montserrat', sans-serif;}
+#section2 {padding-top:50px;height:1000px;color: #fff; background-color: #E9E1ED; text-align: center; font-family: 'Montserrat', sans-serif;}
+#section3 {padding-top:50px;height:1000px;color: #fff; background-color: #EDE3E1; text-align: center; font-family: 'Montserrat', sans-serif;}
+#section41 {padding-top:50px;height:1000px;color: #fff; background-color: #E5EDE1; text-align: center; font-family: 'Montserrat', sans-serif;}
+#section42 {padding-top:50px;height:1000px;color: #fff; background-color: #E1EBED; text-align: center; font-family: 'Montserrat', sans-serif;}
 
 
 
@@ -59,6 +52,8 @@ body{
     padding: 10px;
     color:black;
 }
+
+
 
 .btn{
   /* -webkit-transition-duration: 0.4s; /* Safari */

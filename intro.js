@@ -82,3 +82,6 @@ if ($('.scrollToTop')[0]){
   });
 
 })(jQuery);
+
+
+// Navbar slowscroll to part
