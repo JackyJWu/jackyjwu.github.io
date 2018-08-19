@@ -219,3 +219,14 @@ font-family: 'Montserrat', sans-serif;
   margin-top: 50px;
   text-align: justify;
 }
+
+/* Collapse Button */
+@media(max-width:768px){.clearfix-xs:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+}
