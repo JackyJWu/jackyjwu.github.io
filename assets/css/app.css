@@ -17,10 +17,9 @@ body{
 
 /* New */
 .intro{
-  background:url('https://images5.alphacoders.com/721/721657.jpg') no-repeat;
+  background:url(../lib/intro.jpg) no-repeat;
   background-position: 50% 50%;
   background-size:cover;
-
 
 }
 .intro h1{
@@ -229,4 +228,25 @@ font-family: 'Montserrat', sans-serif;
     clear: both;
     height: 0;
     }
+}
+
+
+.middle {
+  font-size: 1.25em;
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: lowercase;
+  width: 100%;
+}
+
+ hr{
+  width: 20px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
