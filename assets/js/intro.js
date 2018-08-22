@@ -28,7 +28,8 @@ function intro(){
 
   introEl.css('padding', (windowH-introHeadingH)/2 + 'px 0');
 
-  // Use this code for future
+
+  //Slideup animation is off
   // $(document).on('scroll',function(){
   //   introEl.slideUp(1500, function(){$(document).off('scroll');} )
   // });
