@@ -31,7 +31,7 @@ function intro(){
   $(document).on('scroll',function(){
     introEl.slideUp(1500, function(){$(document).off('scroll');} )
   });
-  
+
 };
 
 intro()
