@@ -36,10 +36,10 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-#about {padding-top:50px;height:1000px;color: #fff; background-color: #E1EBED; text-align: center; font-family: 'Montserrat', sans-serif;}
-#section2 {padding-top:50px;height:1000px;color: #fff; background-color: #E9E1ED; text-align: center; font-family: 'Montserrat', sans-serif;}
-#contact {padding-top:50px;height:1000px;color: #fff; background-color: #EDE3E1; text-align: center; font-family: 'Montserrat', sans-serif;}
-#projects {padding-top:50px;height:1000px;color: #fff; background-color: #E5EDE1; text-align: center; font-family: 'Montserrat', sans-serif;}
+#about {padding-top:50px;height:100%;color: #fff; background-color: #E1EBED; text-align: center; font-family: 'Montserrat', sans-serif;}
+#section2 {padding-top:50px;height:100%;color: #fff; background-color: #E9E1ED; text-align: center; font-family: 'Montserrat', sans-serif;}
+#contact {padding-top:50px;height:100%;color: #fff; background-color: #EDE3E1; text-align: center; font-family: 'Montserrat', sans-serif;}
+#projects {padding-top:50px;height:100%;color: #fff; background-color: #E5EDE1; text-align: center; font-family: 'Montserrat', sans-serif;}
 
 
 

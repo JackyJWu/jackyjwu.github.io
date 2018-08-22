@@ -28,8 +28,11 @@ function intro(){
 
   introEl.css('padding', (windowH-introHeadingH)/2 + 'px 0');
 
+
+  // Scroll here
   $(document).on('scroll',function(){
-    introEl.slideUp(1500, function(){$(document).off('scroll');} )
+    introEl.slideUp(1500, function(){$(document).off('scroll'); } )
+
   });
 };
 
