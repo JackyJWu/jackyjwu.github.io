@@ -1,21 +1,5 @@
-/*
- Different Coloring Schemes
-*/
 
-
-
-a:hover{
-  color:white;
-}
-body{
-
-  margin:0;
-  padding:0;
-}
-
-
-
-/* New */
+/* Intro */
 .intro{
   background:url(../lib/intro.jpg) no-repeat;
   background-position: 50% 50%;
@@ -28,6 +12,27 @@ body{
   font-size: 7em;
   color: white;
 font-family: 'Montserrat', sans-serif;
+}
+
+/* social */
+.social{
+  padding: 0;
+  margin: 0 0 20px;
+  text-align:center;
+  padding-top: 20px;
+}
+
+.social li{
+  display: inline;
+  margin: 50px;
+
+}
+
+.social i{
+  font-size: 250%;
+  color:white;
+
+
 }
 
 .nav-item{
@@ -53,7 +58,6 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-
 .btn{
   /* -webkit-transition-duration: 0.4s; /* Safari */
   /* transition-duration: 0.4s; */
@@ -65,7 +69,7 @@ font-family: 'Montserrat', sans-serif;
   transition-duration: 0.4s;
 }
 
-
+/* elevator button */
 
 .elevator {
   position: fixed;
@@ -272,4 +276,31 @@ font-family: 'Montserrat', sans-serif;
 
 .navbar-custom .navbar-toggle .icon-bar {
 	background: #222;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    min-height: 132px;
+    background-color: #1F1F1F;
+    text-align:center;
+}
+.footer .fa {
+    display:inline-block;
+    vertical-align:middle;
+    color: #444;
+    font-size: 2.2em;
+    background-color: #fff;
+    border: 4px solid #E6E6FA;
+    border-radius: 48px;
+    height: 52px;
+    line-height: 44px;
+    width: 52px;
+    margin:20px 5px;
+}
+.copy_text {
+    font-family: PT Sans;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #fff;
 }
