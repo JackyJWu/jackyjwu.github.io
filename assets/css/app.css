@@ -304,3 +304,27 @@ font-family: 'Montserrat', sans-serif;
     font-style: italic;
     color: #fff;
 }
+
+/* Contact form */
+/* input[type=name] {
+    border: none;
+    border-bottom: 2px solid red;
+} */
+.forms{
+  border: 1px solid #D8E1E4;
+  font-size: 14px;
+  padding: 0 15px;
+}
+input[type="name"]{
+  width: 30%;
+}
+input[type="email"]{
+  width: 30%;
+}
+textarea[name="message"]{
+  width: 30%;
+
+}
+button[type="submit"]{
+  width: 30%;
+}
