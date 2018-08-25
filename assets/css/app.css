@@ -26,6 +26,7 @@ padding: 120px 0 100px;
   margin: 0 0 20px;
   text-align:center;
   padding-top: 20px;
+
 }
 
 .social li{
@@ -37,10 +38,11 @@ padding: 120px 0 100px;
 .social i{
   font-size: 250%;
   color:white;
-
+  border: 1px solid transparent;
 
 }
 .social i:hover{
+
   border: 1px solid rgba(255, 255, 255, .5);
   color: rgba(255, 255, 255, .8);
   border-radius: 5px;
