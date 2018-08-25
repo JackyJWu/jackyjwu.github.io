@@ -13,7 +13,13 @@
   color: white;
 font-family: 'Montserrat', sans-serif;
 }
-
+p{
+  color:#696969;
+}
+/* about me */
+p.excerpt{
+padding: 120px 0 100px;
+}
 /* social */
 .social{
   padding: 0;
@@ -33,6 +39,11 @@ font-family: 'Montserrat', sans-serif;
   color:white;
 
 
+}
+.social i:hover{
+  border: 1px solid rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .8);
+  border-radius: 5px;
 }
 
 .nav-item{
@@ -314,17 +325,18 @@ font-family: 'Montserrat', sans-serif;
   border: 1px solid #D8E1E4;
   font-size: 14px;
   padding: 0 15px;
+  border-radius: 5px;
 }
 input[type="name"]{
-  width: 30%;
+  width: 40%;
 }
 input[type="email"]{
-  width: 30%;
+  width: 40%;
 }
 textarea[name="message"]{
-  width: 30%;
+  width: 40%;
 
 }
 button[type="submit"]{
-  width: 30%;
+  width: 40%;
 }
