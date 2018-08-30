@@ -428,6 +428,9 @@ button[type="submit"]:focus {
   /* padding: 16px 32px; */
 
 }
+.pic{
+  margin-top:60px;
+}
 
 /* Image Consistency */
 .thumbnail img {
