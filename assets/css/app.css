@@ -343,6 +343,7 @@ textarea[name="message"]{
 }
 button[type="submit"]{
   width: 40%;
+  background-color:  white;
 }
 
 
