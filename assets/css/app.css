@@ -429,13 +429,28 @@ button[type="submit"]:focus {
 
 }
 .pic{
-  margin-top:60px;
+  position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 1em;
+	max-width: 100%;
+	list-style: none;
+	text-align: center;
 }
+
+
 
 /* Image Consistency */
 .thumbnail img {
+    /* The edited code makes sure all images same size */
     height:250px;
     width:100%;
+
+    position: relative;
+    display: block;
+    min-height: auto;
+    max-width: 100%;
+    opacity: 0.8;
 }
 
 /* pulldown effect */
