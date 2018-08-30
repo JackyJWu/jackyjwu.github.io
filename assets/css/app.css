@@ -43,7 +43,7 @@ padding: 120px 0 100px;
 
 }
 .social i:hover{
-
+  transition: .5s ease;
   border: 1px solid rgba(255, 255, 255, .5);
   color: rgba(255, 255, 255, .8);
   border-radius: 5px;
@@ -387,5 +387,5 @@ button[type="submit"]{
   color: white;
   font-size: 16px;
   /* padding: 16px 32px; */
-  
+
 }
