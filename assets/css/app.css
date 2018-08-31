@@ -453,10 +453,11 @@ button[type="submit"]:focus {
     opacity: 0.8;
 }
 
+
 /* pulldown effect */
 #section07 a {
   padding-top: 80px;
-  
+
 }
 #section07 a span {
   position: absolute;
@@ -525,5 +526,28 @@ button[type="submit"]:focus {
   }
   100% {
     opacity: 0;
+  }
+}
+
+/* Removing Photogrid padding */
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .row-sm-no-padding {
+    [class*="col-"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
   }
 }
