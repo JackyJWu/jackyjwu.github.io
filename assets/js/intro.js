@@ -22,6 +22,7 @@ function intro(){
 intro();
 */
 function intro(){
+  
   var introEl = $('div.intro');
   var introHeadingH = introEl.find('h1').height();
   var windowH = $(window).height();
